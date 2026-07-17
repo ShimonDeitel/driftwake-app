@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EE9D2FB5C4ACA47A0B4131 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F33BBE6C6D799BC83E8F0F /* SettingsView.swift */; };
+		0384D9462AF5F721CDA24C33 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B446526D1CCE9C474DCF46 /* AppModel.swift */; };
+		14E4E3A53A122931644F9E4A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3559AAF860DE349778A98F37 /* PrivacyInfo.xcprivacy */; };
+		1D91E1BB205ED817B67A0459 /* DriftwakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2DA18663E308AA571991C7 /* DriftwakeApp.swift */; };
+		2FC96D2E30A844EEE0C70479 /* Driftwake.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 6B862589B7F6B7F5A348FA25 /* Driftwake.storekit */; };
+		3583C6266D62FA1D55940E52 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D786DEF9E19B0A9DDCF62 /* Store.swift */; };
+		4AB65D339546F80C1A5ABD1C /* AnchorProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B24EEADD08EA543DA33BD /* AnchorProfilesView.swift */; };
+		57344FE7B63141ECDDE7D833 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660F0EFCAACE5637DDF34EB /* RootView.swift */; };
+		5AA94F2D8FE04B1A7E6003B1 /* AIProxyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612595687131519EDD3025C /* AIProxyClient.swift */; };
+		5E86C147B1AF6B4463A71668 /* GrogginessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC81955AEC3D38DDB3FAB35 /* GrogginessView.swift */; };
+		6E918A34EFE4DD50DA77D8D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499013E5B92D2998001A50C5 /* MainView.swift */; };
+		765F5F93BF8A3D29F9425772 /* AppIconSource.svg in Resources */ = {isa = PBXBuildFile; fileRef = A3E66768A75849C77B07EED0 /* AppIconSource.svg */; };
+		821713EED9AC82D090FBCA10 /* DriftwakeLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C73C95CBB78B237AD4CAA1 /* DriftwakeLogicTests.swift */; };
+		94501DABDDD52CCFD799F573 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B459160E034377609A7F19A /* NotificationScheduler.swift */; };
+		9873D342FACF8FC445B6F2F9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A695158DBBC6973305BB790F /* Design.swift */; };
+		9D419AB12542C030172412E4 /* SleepEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3C93280F18D9BF483F342 /* SleepEngine.swift */; };
+		AECEFF3E46AC128A498A94A1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0193C1714A7AB989E8DF0 /* Models.swift */; };
+		B9CD8B1C676FC938A78187C5 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F808B22D5BC82EFEFF80057 /* PaywallView.swift */; };
+		D0045E00473126991364E048 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FEFEE93D63729C8844AD36 /* Components.swift */; };
+		DAAB6A901AF540026F2E8E59 /* MotionMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC176D96C5D85850454DD0A /* MotionMonitor.swift */; };
+		FC3704276A0B4F6143984BC5 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35474417555DA3583530EA /* NotificationDelegate.swift */; };
+		FD139A79EF50FE2BDC47998D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C88E8328F451EECC0A9B04 /* Assets.xcassets */; };
+		FDA90B253375E90C5831E133 /* MicMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB56B7BC4F035651D6A35F5 /* MicMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B52013CA23988E56D122325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABEC4A29B9DF988A86B752DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F69F71A9DC665A6FADC79FC;
+			remoteInfo = Driftwake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14FEFEE93D63729C8844AD36 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		176E71DC1355A0354AEDA23D /* DriftwakeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DriftwakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0B24EEADD08EA543DA33BD /* AnchorProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorProfilesView.swift; sourceTree = "<group>"; };
+		2612595687131519EDD3025C /* AIProxyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProxyClient.swift; sourceTree = "<group>"; };
+		349D786DEF9E19B0A9DDCF62 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3559AAF860DE349778A98F37 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3F808B22D5BC82EFEFF80057 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		499013E5B92D2998001A50C5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4A35474417555DA3583530EA /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		5D2DA18663E308AA571991C7 /* DriftwakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriftwakeApp.swift; sourceTree = "<group>"; };
+		6B862589B7F6B7F5A348FA25 /* Driftwake.storekit */ = {isa = PBXFileReference; path = Driftwake.storekit; sourceTree = "<group>"; };
+		73F33BBE6C6D799BC83E8F0F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74C73C95CBB78B237AD4CAA1 /* DriftwakeLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriftwakeLogicTests.swift; sourceTree = "<group>"; };
+		80C88E8328F451EECC0A9B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9018ABC6D136DB38EAE30FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9073E582A0C4F7777399B905 /* Driftwake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Driftwake.entitlements; sourceTree = "<group>"; };
+		94F3C93280F18D9BF483F342 /* SleepEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEngine.swift; sourceTree = "<group>"; };
+		9B459160E034377609A7F19A /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		A3C0193C1714A7AB989E8DF0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A3E66768A75849C77B07EED0 /* AppIconSource.svg */ = {isa = PBXFileReference; path = AppIconSource.svg; sourceTree = "<group>"; };
+		A695158DBBC6973305BB790F /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		B3B446526D1CCE9C474DCF46 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C660F0EFCAACE5637DDF34EB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CDC81955AEC3D38DDB3FAB35 /* GrogginessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrogginessView.swift; sourceTree = "<group>"; };
+		EEE547887D366C333E0265AF /* Driftwake.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Driftwake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB56B7BC4F035651D6A35F5 /* MicMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicMonitor.swift; sourceTree = "<group>"; };
+		FEC176D96C5D85850454DD0A /* MotionMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25BEABC1EB75CC7B75C8494F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2612595687131519EDD3025C /* AIProxyClient.swift */,
+				FAB56B7BC4F035651D6A35F5 /* MicMonitor.swift */,
+				FEC176D96C5D85850454DD0A /* MotionMonitor.swift */,
+				4A35474417555DA3583530EA /* NotificationDelegate.swift */,
+				9B459160E034377609A7F19A /* NotificationScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3DDEE48D373579650266900D = {
+			isa = PBXGroup;
+			children = (
+				C733A5F91FF1DA8BEAA0EB38 /* Driftwake */,
+				8DC38316B022AFE68423F5CE /* DriftwakeTests */,
+				6B862589B7F6B7F5A348FA25 /* Driftwake.storekit */,
+				6A67886DEF64DA8A1A5C88F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A67886DEF64DA8A1A5C88F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE547887D366C333E0265AF /* Driftwake.app */,
+				176E71DC1355A0354AEDA23D /* DriftwakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC38316B022AFE68423F5CE /* DriftwakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				74C73C95CBB78B237AD4CAA1 /* DriftwakeLogicTests.swift */,
+			);
+			path = DriftwakeTests;
+			sourceTree = "<group>";
+		};
+		C733A5F91FF1DA8BEAA0EB38 /* Driftwake */ = {
+			isa = PBXGroup;
+			children = (
+				25BEABC1EB75CC7B75C8494F /* Services */,
+				1A0B24EEADD08EA543DA33BD /* AnchorProfilesView.swift */,
+				A3E66768A75849C77B07EED0 /* AppIconSource.svg */,
+				B3B446526D1CCE9C474DCF46 /* AppModel.swift */,
+				80C88E8328F451EECC0A9B04 /* Assets.xcassets */,
+				14FEFEE93D63729C8844AD36 /* Components.swift */,
+				A695158DBBC6973305BB790F /* Design.swift */,
+				9073E582A0C4F7777399B905 /* Driftwake.entitlements */,
+				5D2DA18663E308AA571991C7 /* DriftwakeApp.swift */,
+				CDC81955AEC3D38DDB3FAB35 /* GrogginessView.swift */,
+				9018ABC6D136DB38EAE30FEA /* Info.plist */,
+				499013E5B92D2998001A50C5 /* MainView.swift */,
+				A3C0193C1714A7AB989E8DF0 /* Models.swift */,
+				3F808B22D5BC82EFEFF80057 /* PaywallView.swift */,
+				3559AAF860DE349778A98F37 /* PrivacyInfo.xcprivacy */,
+				C660F0EFCAACE5637DDF34EB /* RootView.swift */,
+				73F33BBE6C6D799BC83E8F0F /* SettingsView.swift */,
+				94F3C93280F18D9BF483F342 /* SleepEngine.swift */,
+				349D786DEF9E19B0A9DDCF62 /* Store.swift */,
+			);
+			path = Driftwake;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E9BAD0EA96B1B08664B494C /* DriftwakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA54A5A2E392B79038DE0244 /* Build configuration list for PBXNativeTarget "DriftwakeTests" */;
+			buildPhases = (
+				351C424BD9371C27910FAC3A /* Sources */,
+				22DFA73BCFA0A111E7585B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E244A6AA822A1C0A7D5CD00 /* PBXTargetDependency */,
+			);
+			name = DriftwakeTests;
+			packageProductDependencies = (
+			);
+			productName = DriftwakeTests;
+			productReference = 176E71DC1355A0354AEDA23D /* DriftwakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F69F71A9DC665A6FADC79FC /* Driftwake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FEA324CBFCCBBC30CC7BF4 /* Build configuration list for PBXNativeTarget "Driftwake" */;
+			buildPhases = (
+				7411ACFB5BAD70E50052FC4D /* Sources */,
+				88B8C7765153EC6B435735CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Driftwake;
+			packageProductDependencies = (
+			);
+			productName = Driftwake;
+			productReference = EEE547887D366C333E0265AF /* Driftwake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEC4A29B9DF988A86B752DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E9BAD0EA96B1B08664B494C = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					4F69F71A9DC665A6FADC79FC = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 011B9E2B08E3652729942727 /* Build configuration list for PBXProject "Driftwake" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3DDEE48D373579650266900D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A67886DEF64DA8A1A5C88F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F69F71A9DC665A6FADC79FC /* Driftwake */,
+				0E9BAD0EA96B1B08664B494C /* DriftwakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DFA73BCFA0A111E7585B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC96D2E30A844EEE0C70479 /* Driftwake.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B8C7765153EC6B435735CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765F5F93BF8A3D29F9425772 /* AppIconSource.svg in Resources */,
+				FD139A79EF50FE2BDC47998D /* Assets.xcassets in Resources */,
+				14E4E3A53A122931644F9E4A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351C424BD9371C27910FAC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821713EED9AC82D090FBCA10 /* DriftwakeLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7411ACFB5BAD70E50052FC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA94F2D8FE04B1A7E6003B1 /* AIProxyClient.swift in Sources */,
+				4AB65D339546F80C1A5ABD1C /* AnchorProfilesView.swift in Sources */,
+				0384D9462AF5F721CDA24C33 /* AppModel.swift in Sources */,
+				D0045E00473126991364E048 /* Components.swift in Sources */,
+				9873D342FACF8FC445B6F2F9 /* Design.swift in Sources */,
+				1D91E1BB205ED817B67A0459 /* DriftwakeApp.swift in Sources */,
+				5E86C147B1AF6B4463A71668 /* GrogginessView.swift in Sources */,
+				6E918A34EFE4DD50DA77D8D6 /* MainView.swift in Sources */,
+				FDA90B253375E90C5831E133 /* MicMonitor.swift in Sources */,
+				AECEFF3E46AC128A498A94A1 /* Models.swift in Sources */,
+				DAAB6A901AF540026F2E8E59 /* MotionMonitor.swift in Sources */,
+				FC3704276A0B4F6143984BC5 /* NotificationDelegate.swift in Sources */,
+				94501DABDDD52CCFD799F573 /* NotificationScheduler.swift in Sources */,
+				B9CD8B1C676FC938A78187C5 /* PaywallView.swift in Sources */,
+				57344FE7B63141ECDDE7D833 /* RootView.swift in Sources */,
+				02EE9D2FB5C4ACA47A0B4131 /* SettingsView.swift in Sources */,
+				9D419AB12542C030172412E4 /* SleepEngine.swift in Sources */,
+				3583C6266D62FA1D55940E52 /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E244A6AA822A1C0A7D5CD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F69F71A9DC665A6FADC79FC /* Driftwake */;
+			targetProxy = 0B52013CA23988E56D122325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C3A85B30AB60E40B9A4A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D19079195D661B4E941D147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48249842B2C7805125E33E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Driftwake/Driftwake.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Driftwake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.driftwake;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E7D981D2241869C1E654441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.driftwake.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driftwake.app/Driftwake";
+			};
+			name = Release;
+		};
+		7BD5701F6BD398F53190D7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Driftwake/Driftwake.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Driftwake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.driftwake;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93F7BA1733C3949DE1E87531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.driftwake.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driftwake.app/Driftwake";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011B9E2B08E3652729942727 /* Build configuration list for PBXProject "Driftwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C3A85B30AB60E40B9A4A12 /* Debug */,
+				3D19079195D661B4E941D147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54FEA324CBFCCBBC30CC7BF4 /* Build configuration list for PBXNativeTarget "Driftwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48249842B2C7805125E33E80 /* Debug */,
+				7BD5701F6BD398F53190D7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA54A5A2E392B79038DE0244 /* Build configuration list for PBXNativeTarget "DriftwakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7BA1733C3949DE1E87531 /* Debug */,
+				5E7D981D2241869C1E654441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEC4A29B9DF988A86B752DD /* Project object */;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Driftwake</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ember: #FF8A3D;
+    --midnight-top: #0A0D28;
+    --midnight-bot: #17181F;
+    --ink: #F4EFE8;
+    --muted: #A5A0B2;
+    --hairline: rgba(244,239,232,0.14);
+  }
+  body {
+    font-family: -apple-system, "Segoe UI Rounded", system-ui, sans-serif;
+    background: linear-gradient(180deg, var(--midnight-top), var(--midnight-bot) 60%);
+    color: var(--ink);
+    line-height: 1.65;
+    padding: 60px 20px 90px;
+  }
+  .doc { max-width: 700px; margin: 0 auto; }
+  a.back { color: var(--ember); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 30px; font-weight: 800; margin: 24px 0 6px; }
+  .updated { color: var(--muted); font-size: 13px; margin-bottom: 34px; }
+  h2 { font-size: 18px; font-weight: 700; margin: 34px 0 10px; color: var(--ember); }
+  p, li { color: var(--muted); font-size: 15px; margin-bottom: 12px; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  a { color: var(--ink); }
+  hr { border: none; border-top: 1px solid var(--hairline); margin: 40px 0; }
+</style>
+</head>
+<body>
+<div class="doc">
+  <a class="back" href="index.html">← Driftwake</a>
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated July 17, 2026</div>
+
+  <p>Driftwake is a sleep-onset alarm built to keep as much as possible on your device, all the time. This page explains exactly what the app does with sensor data, what it sends anywhere, and what it doesn't.</p>
+
+  <h2>1. What Driftwake reads from your device</h2>
+  <ul>
+    <li><strong>Motion (accelerometer):</strong> used only to measure how still your phone is, minute by minute, to detect sleep onset. Processed on-device in real time; raw samples are never stored or transmitted.</li>
+    <li><strong>Microphone:</strong> used only to meter the room's loudness level (a single decibel number per moment), never to record or store audio. No audio clip is ever created, saved, or sent anywhere.</li>
+    <li><strong>Notifications:</strong> used to deliver your wake alarm at the computed time, including while the app is backgrounded.</li>
+  </ul>
+
+  <h2>2. What stays only on your device</h2>
+  <p>Your saved anchor profiles (names and durations), your grogginess ratings, your appearance preference, and your subscription status are all stored locally using standard iOS storage (UserDefaults). Driftwake has no user account and no server-side database of its own.</p>
+
+  <h2>3. The nightly AI insight (Pro)</h2>
+  <p>If you're a Pro subscriber and request the nightly insight, Driftwake sends only two numbers per logged night — the anchor duration you used (in hours) and your 1–5 grogginess rating — to a Cloudflare Worker that Driftwake's developer operates (no third-party AI vendor account, no API key embedded in the app). This request:</p>
+  <ul>
+    <li>Never includes audio, motion data, your name, device identifiers, or location.</li>
+    <li>Is processed and answered by the Worker without being written to any database, log, or file — the Worker holds no history of any request.</li>
+    <li>Only your on-device 14-day log is retained anywhere, and only on your device.</li>
+  </ul>
+
+  <h2>4. Data we do not collect</h2>
+  <p>Driftwake collects no analytics, no advertising identifiers, no crash-reporting SDKs from third parties, and does not track you across other apps or websites. There is nothing to sell, because nothing leaves your device except the two anonymous numbers described above, and only when you explicitly ask for an insight.</p>
+
+  <h2>5. Subscriptions</h2>
+  <p>Driftwake Pro is an auto-renewable monthly subscription billed through your Apple ID via StoreKit. Apple handles all payment information — Driftwake never sees or stores your card details. You can manage or cancel your subscription anytime in Settings on your device.</p>
+
+  <h2>6. Background operation</h2>
+  <p>Automatic onset detection (Pro) uses the "audio" background mode so motion and mic sampling can continue while your phone's screen is off overnight. If iOS suspends the app anyway (for example, after a force-quit or very low battery), detection simply stops — nothing is silently collected in the background beyond what's described above.</p>
+
+  <h2>7. Children</h2>
+  <p>Driftwake is not directed at children and does not knowingly collect data from anyone under 13.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes, the "last updated" date above will change too, and material changes will be reflected in the app's release notes.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy or your data: <a href="mailto:s0533495227@gmail.com">s0533495227@gmail.com</a></p>
+
+  <hr>
+  <p><a class="back" href="terms.html">Read the Terms of Use →</a></p>
+</div>
+</body>
+</html>

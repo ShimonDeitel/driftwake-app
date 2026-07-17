@@ -1,0 +1,53 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "DRIFTWAKE_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "23100001",
+      "localizations" : [],
+      "name" : "Driftwake Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "driftwake_pro_monthly_id",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Automatic sleep-onset detection, multiple anchor profiles, and nightly AI insight.",
+              "displayName" : "Driftwake Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.driftwake.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Driftwake Pro Monthly",
+          "subscriptionGroupID" : "23100001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A0D28"/>
+      <stop offset="100%" stop-color="#17181F"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF8A3D" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF8A3D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ember" cx="38%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#FFD9AF"/>
+      <stop offset="55%" stop-color="#FF8A3D"/>
+      <stop offset="100%" stop-color="#C65A16"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A3D"/>
+      <stop offset="100%" stop-color="#FFC791"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- faint orbital rings for depth -->
+  <circle cx="512" cy="512" r="430" fill="none" stroke="#F4EFE8" stroke-opacity="0.06" stroke-width="2"/>
+  <circle cx="512" cy="512" r="360" fill="none" stroke="#F4EFE8" stroke-opacity="0.05" stroke-width="2"/>
+
+  <!-- countdown ring, traced three quarters of the way around -->
+  <circle cx="512" cy="512" r="300" fill="none" stroke="#F4EFE8" stroke-opacity="0.10" stroke-width="26" stroke-linecap="round"/>
+  <path d="M 512 212 A 300 300 0 1 1 233.4 672.1" fill="none" stroke="url(#ring)" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- ember halo + core -->
+  <circle cx="512" cy="512" r="230" fill="url(#halo)"/>
+  <circle cx="512" cy="512" r="132" fill="url(#ember)"/>
+</svg>

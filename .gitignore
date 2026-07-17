@@ -1,0 +1,21 @@
+# Xcode / Swift build artifacts
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+.build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode workspace/user settings (keep the generated .xcodeproj itself,
+# xcodegen regenerates it from project.yml so it's fine to track,
+# but never track per-user state)
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
