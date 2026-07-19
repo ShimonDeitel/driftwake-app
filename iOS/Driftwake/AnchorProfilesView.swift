@@ -128,6 +128,8 @@ private struct AnchorEditorView: View {
                     }
                 }
             }
+            .dismissKeyboardOnTap()
+            .scrollDismissesKeyboard(.interactively)
             .navigationTitle(existing == nil ? "Add Anchor" : "Edit Anchor")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

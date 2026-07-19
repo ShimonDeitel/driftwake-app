@@ -43,6 +43,16 @@ struct HaloButtonStyle: ButtonStyle {
 extension View {
     func prominentEmberButton() -> some View { buttonStyle(EmberButtonStyle()) }
     func haloButton() -> some View { buttonStyle(HaloButtonStyle()) }
+
+    /// Dismisses the keyboard on a tap anywhere in this view, without swallowing taps meant for
+    /// buttons/controls inside it — `simultaneousGesture` lets both fire.
+    func dismissKeyboardOnTap() -> some View {
+        simultaneousGesture(
+            TapGesture().onEnded {
+                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+            }
+        )
+    }
 }
 
 /// A rounded, pill-shaped info strip (still no straight-edged rectangle — capsule ends are
